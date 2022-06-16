@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catch The Rabbits</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kdam+Thmor+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <!-- header -->
+
+      <header class="header">
+        <h1 class="title">Catch The Rabbits</h1>
+
+        <button type="button" class="btn start-btn">Start</button>
+
+        <h2 class="subtitle score-container inactive">
+          Score: <span class="score">0</span>
+        </h2>
+
+        <h2 class="subtitle timer inactive"></h2>
+      </header>
+
+      <!-- Bunny #1 -->
+      <div class="layer layer-1">
+        <div class="bunny-container bunny-1">
+          <div class="ear-outer ear-left">
+            <div class="ear-inner"></div>
+          </div>
+          <div class="ear-outer ear-right">
+            <div class="ear-inner"></div>
+          </div>
+          <div class="head">
+            <div class="eye eye-left"></div>
+            <div class="eye eye-right"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bunny #2 -->
+
+      <div class="layer layer-2">
+        <div class="bunny-container bunny-2">
+          <div class="ear-outer ear-left">
+            <div class="ear-inner"></div>
+          </div>
+          <div class="ear-outer ear-right">
+            <div class="ear-inner"></div>
+          </div>
+          <div class="head">
+            <div class="eye eye-left"></div>
+            <div class="eye eye-right"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mountain-1 -->
+
+      <div class="layer layer-3 mountain"></div>
+
+      <!-- Bunny #3 -->
+
+      <div class="layer layer-4">
+        <div class="bunny-container bunny-3">
+          <div class="ear-outer ear-left">
+            <div class="ear-inner"></div>
+          </div>
+          <div class="ear-outer ear-right">
+            <div class="ear-inner"></div>
+          </div>
+          <div class="head">
+            <div class="eye eye-left"></div>
+            <div class="eye eye-right"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mountain-2 -->
+
+      <div class="layer layer-5 mountain"></div>
+
+      <!-- Bunny #4 -->
+
+      <div class="layer layer-6">
+        <div class="bunny-container bunny-4">
+          <div class="ear-outer ear-left">
+            <div class="ear-inner"></div>
+          </div>
+          <div class="ear-outer ear-right">
+            <div class="ear-inner"></div>
+          </div>
+          <div class="head">
+            <div class="eye eye-left"></div>
+            <div class="eye eye-right"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mountain-3 -->
+      <div class="layer layer-7 mountain"></div>
+
+      <!-- grass -->
+
+      <div class="layer layer-8">
+        <div class="grass-container">
+          <div class="grass grass-1"></div>
+          <div class="grass grass-2"></div>
+          <div class="grass grass-3"></div>
+        </div>
+      </div>
+
+      <!-- Cloud -->
+
+      <div class="layer layer-9">
+        <div class="cloud-container">
+          <div class="cloud cloud-1"></div>
+          <div class="cloud cloud-2"></div>
+        </div>
+      </div>
+
+      <!-- Cloud -->
+
+      <div class="layer layer-10">
+        <div class="cloud cloud-3"></div>
+        <div class="cloud cloud-4"></div>
+      </div>
+
+      <div class="inactive layer layer-11">
+        <div class="resume-container">
+          <h2 class="subtitle">Score:</h2>
+          <h2 class="subtitle score-resume"></h2>
+          <button class="btn again-btn" type="button">Play again</button>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
