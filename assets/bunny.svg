@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Bunny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 120" style="enable-background:new 0 0 100 120;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st1{fill:#FF69B4;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+</style>
+<g id="Bunny_00000079484057554606799450000015469153165954265482_">
+	<g id="Ear">
+		<ellipse class="st0" cx="34.02" cy="28.29" rx="10" ry="25"/>
+		<ellipse class="st1" cx="34.02" cy="28.29" rx="6" ry="20"/>
+	</g>
+	<g id="Ear_00000170983597626701240830000007474569653261438378_">
+		<ellipse class="st0" cx="65.87" cy="28.29" rx="10" ry="25"/>
+		<ellipse class="st1" cx="65.87" cy="28.29" rx="6" ry="20"/>
+	</g>
+	<circle id="Head" class="st0" cx="50" cy="76.71" r="40"/>
+	<circle id="Eye_00000016774380553017776870000014927675227723471035_" cx="44.02" cy="58.46" r="2.5"/>
+	<circle id="Eye" cx="55.87" cy="58.46" r="2.5"/>
+</g>
+</svg>
